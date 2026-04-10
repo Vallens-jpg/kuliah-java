@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Main {
+public class pert3if {
     public static void main(String[] args) {
 
        Scanner angka = new Scanner(System.in);
