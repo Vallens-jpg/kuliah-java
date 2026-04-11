@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
 public class pert3 {
+    // ini adalah kode pemrograman dari hasil soal pertemuan 3 basic programming
     static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
@@ -39,6 +40,7 @@ public class pert3 {
             default:
                 System.out.println("Pilihan tidak valid");
                 break;
+
         }
     }
 }
