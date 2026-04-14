@@ -9,7 +9,6 @@ public class pert3 {
         System.out.println("1. Persegi Panjang");
         System.out.println("2. Persegi");
 
-
         System.out.println("Masukkan pilihan anda: ");
         int pilihan = input.nextInt();
 
