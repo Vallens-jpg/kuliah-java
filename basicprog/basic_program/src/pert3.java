@@ -5,6 +5,8 @@ public class pert3 {
     static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
+        for (int i = 0; i < 10; i++) {
+
         System.out.println("=== RUMUS BANGUN RUANG ===");
         System.out.println("1. Persegi Panjang");
         System.out.println("2. Persegi");
@@ -30,7 +32,7 @@ public class pert3 {
                 Scanner l = new Scanner(System.in);
                 Scanner y = new Scanner(System.in);
                 System.out.println("=== LUAS PERSEGI === ");
-                System.out.println("Masukkan Panjang 1: ");
+                System.out.println("Masukkan Sisi: ");
                 int lebar1 = l.nextInt();
 
                 int hasil = lebar1 * lebar1;
@@ -40,6 +42,7 @@ public class pert3 {
                 System.out.println("Pilihan tidak valid");
                 break;
 
+        }
         }
     }
 }
