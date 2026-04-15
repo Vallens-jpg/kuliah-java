@@ -12,6 +12,7 @@ public class loop {
                 System.out.print("*");
             }
             System.out.println();
+
         }
     }
 }
