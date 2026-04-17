@@ -7,8 +7,8 @@ public class loop {
         System.out.println("Masukkan jumlah segitiga: ");
         int n = putar.nextInt();
 ;
-        for ( int i = 1; i <= n; i++) {
-            for (int j = 1; j <= i; j++) {
+        for ( int i = 1; i <= n; i++) { // iterasi luar
+            for (int j = 1; j <= i; j++) { // iterasi dalam
                 System.out.print("*");
             }
             System.out.println();
